@@ -24,7 +24,6 @@ header{
   }
 .hlogo{
     display: flex;
-    align-items: center;
     margin-left: 260px;
     margin-right: 506px;
 }
@@ -46,9 +45,9 @@ header{
     flex-direction: row;
     align-items: center;
     padding: 0;
-    margin: 150px 120px;
     justify-content: space-between;
-    
+    margin-right: 260px;
+
 }
 .menu ul{
     display: flex;

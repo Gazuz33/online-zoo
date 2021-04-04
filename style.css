@@ -6,6 +6,7 @@ body{
     flex-direction: column;
     margin: auto;
     text-align: center;
+    
 }
 
 header{
@@ -74,6 +75,62 @@ header li{
 .social{
     width: 180px;
 }
+.nav_link:hover {
+    color: #00A092;
+}
+
+#about, #about:hover {
+    cursor: default;
+    color: #00A092;
+}
+.n2:hover {
+    cursor: pointer;
+}
+
+h1 {
+    visibility: hidden;
+}
+#view:hover, #view:focus {
+    background-color:#D26004;
+    cursor: pointer;
+
+}
+
+.ok:hover, .ok:focus {
+    background-color:#D26004;
+    cursor: pointer;
+}
+
+.left:hover, .right:hover {
+   cursor: pointer; 
+}
+.animals, .animals1, .Animals,.Animals1{
+    transition: transform 1s;
+}
+.animals:hover,.animals1:hover,.Animals:hover,.Animals1:hover {
+    transform: scale(1.05);
+}
+
+#chs:hover, #chs:focus{
+    background-color: #20113D;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.dn:hover, .dn:focus {
+    background-color: #D26004;
+    cursor: pointer;
+
+}
+
+#fdbk:hover, #fdbk:focus{
+   background-color: #00A092;
+   cursor: pointer;
+}
+
+
+.all {
+    overflow-y:hidden;
+}
 .pandaF {
     width: 1920px;
     height: 800px;
@@ -81,7 +138,7 @@ header li{
     background-size: cover;
 }
 
-.pandaF h1{
+.pandaF h2{
     display: flex;
     color: #00A092;
     font-family: 'Montserrat', sans-serif;

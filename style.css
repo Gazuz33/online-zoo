@@ -1369,3 +1369,27 @@ form .dont{
 .social1{
     width: 180px;
 }
+
+
+.flogo1:hover::after, .flogo2:hover::after, .flogo3:hover::after {
+    content: attr(data-title);
+    position: absolute; 
+    z-index: 1;
+    background:#b554f7;
+    opacity: 0.6;
+    color: #ffffff; 
+    text-align: center; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-top: -100px;
+   }
+
+   .flogo2:hover::after {
+    margin-left: -30px;
+   }
+   .flogo3:hover::after {
+    margin-top: -50px;
+    margin-left: -170px;
+   }

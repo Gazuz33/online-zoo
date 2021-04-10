@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="../../assets/signs/bananas.svg" rel="shortcut icon">
-  <link rel="stylesheet" href="map.css">
+  <link rel="stylesheet" href="contact.css">
   <title>Online-zoo</title>
 </head>
 <body>
@@ -20,9 +20,9 @@
               <div class="menu">
                 <ul>
                   <li><a href="../first-page/index.html" class="nav_link" >About</a></li>
-                  <li><a href="#" class="nav_link" id="map">Map</a></li>
+                  <li><a href="../map/map.html" class="nav_link" id="map">Map</a></li>
                   <li><a href="#" class="nav_link">Zoos</a></li>
-                  <li><a href="../contact us/contact.html" class="nav_link">Contact us</a></li>
+                  <li><a href="#" class="nav_link" id="contact">Contact us</a></li>
                   <li><a href="https://www.figma.com/file/lnK11foY8Aoa6oOlDXovVN/Online-ZOO-Project?node-id=1%3A12" class="nav_link">Design</a></li>
 
                 </ul>
@@ -38,40 +38,69 @@
       </div>
       <h1>Online Zoo</h1>
   </header>
-  <div class="intro">
-    <div class="find">find where are the animals live</div>
-    <div class="map">
- <img src="../../assets/signs/Map.png" alt="map" class="karta">
-        <div class="eagle_loc" data-title="Bald Eagle, Continental United States">
-            <img src="../../assets/signs/eagle_loc.png" alt="map" >
-        </div>
-
-        <div class="croc_loc" >
-            <img src="../../assets/signs/croc_loc.png" alt="map">
-        </div>
-        <div class="lion_loc">
-            <img src="../../assets/signs/lion_loc.png" alt="map">
-        </div>
-        <div class="gorilla_loc" data-title="Western lowland gorillas, Western Africa">
-            <img src="../../assets/signs/gorilla_loc.png" alt="map">
-        </div>
-        <div class="lemur_loc" data-title="Ring-Tailed Lemur, Southeast Asia">
-            <img src="../../assets/signs/lemur_loc.png" alt="map">
-        </div>
-        <div class="panda_loc" data-title="Giant Panda, Eastern Asia">
-            <img src="../../assets/signs/panda_loc.png" alt="map">
-        </div>
-        <div class="tiger_loc">
-            <img src="../../assets/signs/tiger_loc.png" alt="map">
-        </div>
-
-        <div class="coala_loc">
-            <img src="../../assets/signs/coala_loc.png" alt="map">
-        </div>
-    </div>
-
+  <div class="cont">
+  <div class="wrapper">
+    <img src="../../assets/signs/gepard.png" alt="Contac us img">
   </div>
-
+  <section class="get-in-touch">
+    <div class="container">
+      <div class="first-block">
+        <h3>Get in touch</h3>
+        <p class="first-block__p">
+          Whether you have a question, or would like to say hello, we're happy to hear from you.
+          Please use the form to send us a message and we'll get back to you as soon as we can.
+          Whether you have a question, or would like to say hello, we're happy to hear from you.
+          Please use the form to send us a message and we'll get back to you as soon as we can.
+        </p>
+      </div>
+      <div class="second-block">
+          <div class="second-block__row">
+            <label class="label label_asterisk" for="username">Your Name</label>
+            <input
+              class="input input_std"
+              id="username"
+              type="text"
+              placeholder="First and last name"
+              required
+            />
+          </div>
+          <div class="second-block__row">
+            <label class="label label_asterisk" for="email">Your Email Address</label>
+            <input
+              class="input input_std"
+              id="email"
+              type="email"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+          <div class="second-block__row">
+            <label class="label label_asterisk" for="subject">Subject</label>
+            <input
+              class="input input_std"
+              id="subject"
+              type="text"
+              placeholder="Enter the subject"
+              required
+            />
+          </div>
+          <div class="second-block__row">
+            <label class="label label_asterisk" for="message">Message</label>
+            <textarea
+              class="input input_textarea"
+              id="message"
+              placeholder="Enter your message"
+              required
+            ></textarea>
+          </div>
+          <button class="button " type="submit">
+            send message
+            <img src="../../assets/signs/camr.png" alt="" class="camr">
+          </button>
+      </div>
+    </div>
+  </section>
+  </div>
   <footer>
     <div class="container2">
       <div class="flogo1" data-title="Online Zoo">
@@ -85,8 +114,8 @@
           <div class="menu2">
             <ul>
               <li><a href="../first-page/index.html" class="nav_link">About</a></li>
-              <li><a href="#" class="nav_link">Map</a></li>
-              <li><a href="../contact us/contact.html" class="nav_link">Zoos</a></li>
+              <li><a href="../map/map.html" class="nav_link">Map</a></li>
+              <li><a href="#" class="nav_link">Zoos</a></li>
               <li><a href="#" class="nav_link">Contact us</a></li>
               
   

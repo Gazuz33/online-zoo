@@ -441,6 +441,7 @@ input::-webkit-inner-spin-button {
     line-height: 27px;
     font-style: normal;
     font-family: 'Montserrat', sans-serif;
+    margin-bottom: 150px;
 }
 footer{
     display: flex;

@@ -1149,7 +1149,9 @@ form .choose2{
     background-color: transparent;
     margin-top: 30px;
 }
-
+.button1:hover, .button2:hover {
+    cursor: pointer;
+}
 .camrO { 
     margin-bottom: -5px;
     margin-left: 10px;

@@ -114,6 +114,7 @@ h1 {
     background-color: #20113D;
     color: #FFFFFF;
     cursor: pointer;
+    
 }
 .dn:hover, .dn:focus {
     background-color: #D26004;
@@ -338,8 +339,7 @@ margin-right: 400px;
     margin-right: 30px;
     
 }
-
-.donbtn {
+.donp {
     box-sizing: border-box;
     width: 320px;
     height: 74px;
@@ -356,100 +356,20 @@ margin-right: 400px;
     background-color: transparent;
     border-right: none;
   }
-  .button_type-donate {
-    position: relative;
-    width: 320px;
-    height: 75px;
-    border: 1px solid #fff;
-  }
-  
-  .button_type-donate > button {
-    position: relative;
-  }
-  
-  .button_type-donate > input {
-    width: 100%;
-    height: 100%;
-    padding-left: 30px;
-    font-size: 18px;
-    color: #fff;
-    background-color: #20113d;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .button_type-donate > span {
+
+  span {
     position: absolute;
     font-size: 18px;
     font-weight: 500;
     color: #fff;
-    top: 25px;
-    left: 13px;
-  }
-  
-  .button_type-donate > input::placeholder {
-    font-family: Montserrat, serif;
-    font-weight: 500;
-    text-transform: uppercase;
-    color: #fff;
-  }
-  
-  .button_type-donate > input::-webkit-inner-spin-button,
-  .button_type-donate > input::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-  }
-  
-  .button_type-donate > input:focus {
-    background-color: #312054;
-  }
-  
-  .button_type-donate > input:focus::placeholder {
-    opacity: 0.3;
-  }
-  
-  .button_type-donate > button {
-    position: absolute;
-    right: 0px;
-    width: 80px;
-    height: 100%;
-    border: none;
-    border-radius: 5px;
-    background-color: #f58021;
-    cursor: pointer;
-    transition: all 0.2s;
-  }
-  
-  .button_type-donate > button:hover {
-    background-color: #d26004;
-  }
-  .your-donation {
-    margin-top: 14.6rem;
-    background-color: #20113d;
-    color: #fff;
-  }
-  .your-donation-container {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1400px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 5.1rem;
-    padding-bottom: 4.7rem;
-  }
-  .your-donation__first-section p {
-    max-width: 60.9rem;
-    margin-top: 2rem;
-    padding-left: 1px;
-    line-height: 150%;
-  }
-  .your-donation__second-section h5 {
-    padding-top: 1px;
-  }
-  .your-donation__button {
-    margin-top: 1rem;
-  }  
+    margin-top: 28px;
+    margin-left: -590px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 
 .ok {
     box-sizing: border-box;
